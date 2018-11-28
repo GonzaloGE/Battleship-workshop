@@ -50,8 +50,8 @@ board.init();
 while (board.shipfloats) {
     var coorx = document.getElementById("coox").value;
     var coory = document.getElementById("cooy").value;
-    coorx = window.prompt("Ingresa coordenada \"x\": ");
-    coory = window.prompt("Ingresa coordenada \"y\": ");
+    //coorx = window.prompt("Ingresa coordenada \"x\": ");
+    //  coory = window.prompt("Ingresa coordenada \"y\": ");
     console.log("x :", coorx);
     console.log("y :", coory);
     board.check_shot(Number(coorx), Number(coory));

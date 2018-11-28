@@ -69,8 +69,8 @@ while (board.shipfloats) {
     let coorx = (<HTMLInputElement>document.getElementById("coox")).value;
     let coory = (<HTMLInputElement>document.getElementById("cooy")).value;
     
-    coorx = window.prompt("Ingresa coordenada \"x\": ");
-    coory = window.prompt("Ingresa coordenada \"y\": ");
+    //coorx = window.prompt("Ingresa coordenada \"x\": ");
+  //  coory = window.prompt("Ingresa coordenada \"y\": ");
 
     console.log("x :",coorx);
     console.log("y :",coory);
